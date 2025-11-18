@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - 'v*'
-      - 'snapshot-*' # 你可以通过这个命令触发：git tag "snapshot-$(git rev-parse HEAD)" && git push origin "snapshot-$(git rev-parse HEAD)"
+      - 'snapshot-*' #  你可以通过这个命令触发：git tag "snapshot-$(git rev-parse HEAD)" && git push origin "snapshot-$(git rev-parse HEAD)"
 
 jobs:
   package-and-release:
